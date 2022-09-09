@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+
+nav{
+    padding: 15px;
+}
+
+.container-inside-nav{
+    display: flex;
+    padding: 0 15px 0 15px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    float: left;
+}
+
+a{
+    text-decoration: none;  
+}
+
+ul li a{
+    border: .1em solid white;
+    padding: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+ul li a:hover{
+    color: white;
+    background-color: black;
+    border: .1em solid black;
+    border-radius: 50px;
+}
+
+/* centrar elementos/items dentro del div */
+.logo-nav, .ul-div-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.div-icons-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notify, .message, .user-nav, .option-nav{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.input-search-div-nav{
+    width: 67%;
+    margin: 0;
+}
+
+.input-search-nav{
+    height: 95%;
+    width: 100%;
+    border: .1em solid #E8E8E8;
+    border-radius: 50px;
+    padding-left: 25px;
+    font-size: 1em;
+    background-color: #E8E8E8;
+}
+
+.input-search-nav:hover{
+    border: .1em solid #DFDFDF;
+    background-color: #DFDFDF;
+}
