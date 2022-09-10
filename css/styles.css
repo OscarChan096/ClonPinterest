@@ -2,13 +2,9 @@ body{
     margin: 0;
 }
 
-nav{
-    padding: 15px;
-}
-
 .container-inside-nav{
     display: flex;
-    padding: 0 15px 0 15px;
+    padding: 15px 15px 15px 15px;
 }
 
 ul{
@@ -52,7 +48,7 @@ ul li a:hover{
     align-items: center;
 }
 
-.notify, .message, .user-nav, .option-nav{
+.notifications, .message, .profile-img, .option-nav{
     margin-right: 15px;
     margin-left: 15px;
 }
@@ -62,7 +58,7 @@ ul li a:hover{
     margin: 0;
 }
 
-.input-search-nav{
+.finder{
     height: 95%;
     width: 100%;
     border: .1em solid #E8E8E8;
@@ -72,7 +68,28 @@ ul li a:hover{
     background-color: #E8E8E8;
 }
 
-.input-search-nav:hover{
+.finder:hover{
     border: .1em solid #DFDFDF;
     background-color: #DFDFDF;
+}
+
+#content{
+    margin: 20px;
+}
+
+.row-card-image{
+    display: flex;
+}
+
+.card-image{
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+div.card-image img{
+    width: 200px;
+    height: 350px;
+    border: .1em solid white;
+    border-radius: 30px;
 }
