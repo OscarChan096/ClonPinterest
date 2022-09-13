@@ -83,14 +83,9 @@ ul li a:hover{
     grid-template-columns: 265px 265px 265px 265px 265px;
 }
 
-.card-image{
-    width: auto;
-    height: auto;
-}
-
 div.card-image img{
     width: 250px;
-    height: 400px;
+    height: auto;
     border: .1em solid white;
     border-radius: 25px;
 }
@@ -99,18 +94,14 @@ div.card-image img{
     display: flex;
     justify-content: center;
     align-items: center;
-    position:absolute;
+    position:relative;
     left:0;
     right:0;
     bottom:0;
     padding: 1rem;
     max-height: 100%;
-    transform:translateY(101%);
+    transform:translateY(100%);
     transition:transform 0.3s ease-in;
-}
-
-.movie:hover .overview{
-    transform:translateY(0)
 }
 
 .know-more{
@@ -123,4 +114,8 @@ div.card-image img{
     border-radius: 50px;
     padding: 10px 20px;
     margin-top: 5px;
+}
+
+div.card-image:hover .overview{
+    transform:translateY(0)
 }
