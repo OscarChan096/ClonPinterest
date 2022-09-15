@@ -22,9 +22,9 @@ a{
 
 ul li a{
     border: .1em solid white;
-    padding: 15px;
+    padding: 13px;
     color: black;
-    font-weight: 500;
+    font-weight: 550;
 }
 
 ul li a:hover{
@@ -53,6 +53,8 @@ ul li a:hover{
     margin-left: 15px;
 }
 
+
+/* barra de busqueda */
 .input-search-div-nav{
     width: 67%;
     margin: 0;
@@ -68,9 +70,10 @@ ul li a:hover{
     background-color: #E8E8E8;
 }
 
-.finder:hover{
+.finder:hover, .finder:focus{
     border: .1em solid #DFDFDF;
     background-color: #DFDFDF;
+    outline: #00A5BC solid 3px;
 }
 
 /* imagenes */
